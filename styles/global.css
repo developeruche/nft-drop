@@ -76,7 +76,7 @@ nav .container .menu-btn {
   font-size: 1rem;
 }
 
-header {
+.home_header {
   height: 100vh;
   background: url(/back2.jpg)
   center no-repeat fixed;
@@ -85,7 +85,7 @@ header {
   overflow: hidden;
 }
 
-header h1 {
+.home_header h1 {
   position: absolute;
   font-size: clamp(3.5rem, 15vw + 1rem, 12rem);
   text-transform: lowercase;

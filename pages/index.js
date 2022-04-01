@@ -17,7 +17,7 @@ export default function Home() {
           <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
         </Head>
         <div className="homepage__container">
-          <header>
+          <header className='home_header'>
             <nav>
               <div className="container">
                 <div className="menu">
