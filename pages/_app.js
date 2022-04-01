@@ -1,11 +1,13 @@
 import 'tailwindcss/tailwind.css'
 import '../styles/global.css'
-
+import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
 
 function MyApp({ Component, pageProps, userData }) {
   return (
     <>
-      <Component {...pageProps} />
+      <ThirdwebProvider desiredChainId={ChainId.Rinkeby}>
+          <Component {...pageProps} />
+      </ThirdwebProvider>
     </>
   )
 }
